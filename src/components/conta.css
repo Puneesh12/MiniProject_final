@@ -1,0 +1,84 @@
+.contact-form {
+    max-width: 600px;
+    margin: 50px auto; /* Center the form with some margin */
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background for contrast */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    font-family: 'Arial', sans-serif; /* Use a clean font */
+}
+
+.contact-form h1 {
+    text-align: center;
+    color: #00509d; /* Dark blue color for the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.contact-form label {
+    display: block;
+    margin: 15px 0 5px; /* Space around labels */
+    font-weight: bold;
+    color: #333; /* Dark gray for labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for better touch targets */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00509d; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.contact-form textarea {
+    height: 80px; /* Set a fixed height for the textarea */
+    max-height: 120px; /* Optional: Set a maximum height */
+    resize: none; /* Disable resizing */
+    overflow: auto; /* Enable scrolling if content exceeds max height */
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00509d; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer;
+    font-size: 16px; /* Increase font size for readability */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.contact-form button:hover {
+    background-color: #003f7f; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.contact-form p {
+    text-align: center;
+    color: green; /* Success message color */
+    margin-top: 15px; /* Space above the message */
+}
+
+/* Additional styles for spacing between header and footer */
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Light background color for the page */
+}
+
+footer {
+    margin-top: 40px; /* Space between the form and footer */
+    padding: 20px; /* Padding for the footer */
+    background-color: #00509d; /* Footer background color */
+    color: white; /* Footer text color */
+    text-align: center; /* Center footer text */
+}
